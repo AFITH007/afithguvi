@@ -5,7 +5,7 @@ int main()
     int N,K,sum = 0;
     cin >> N;
     cin>>K;
-    for (int i = 0; i <=K5 ; ++i) {
+    for (int i = 0; i <=K ; ++i) {
         sum += i;
     }
     cout << sum;
