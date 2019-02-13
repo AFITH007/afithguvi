@@ -7,7 +7,7 @@ int main(){
     cin >> max;
     for(number = min+1;number < max; number++)
          if(number % 2 ==0)
-             cout<<number<<"\t";
+             cout<<number;
     
     return 0;
 }
