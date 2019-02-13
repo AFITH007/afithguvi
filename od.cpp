@@ -5,10 +5,9 @@ int main(){
     int min,max;
     cin >> min;
     cin >> max;
-    for(number = min;number <= max; number++)
+    for(number = min+1;number < max; number++)
          if(number % 2 !=0)
              cout <<number<<" ";
     
     return 0;
 }
-
